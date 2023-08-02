@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__container">
+                    <h1 class="header__title">Стажировка HRT</h1>
+                <div class="header__info">by kvarcev&сахарок</div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__question">
+                    <div class="main__wrapper">
+                        <h2 class="main__ask"></h2>
+                        <p class="main__answer"></p>
+                    </div>
+                    <form class="main__form" action="#">
+                        <div class="main__container">
+                            <label class="main__label" for="count">
+                                Баллы: <input id="count" type="number" min="0" max="3">
+                            </label>
+                            <div class="main__error"></div>
+                            <button class="main__button">Следующий вопрос</button>
+                        </div>
+                    </form>
+                    <div class="main__end"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
